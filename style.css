@@ -1,0 +1,463 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#main {
+    width: 100% auto;
+}
+header {
+    background-color: white;
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#logo {
+    color: #F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-left: 15%;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+#topnav {
+    float: right;
+    margin-right: 80px;
+}
+#topnav a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 10px;
+}
+#signupBtn {
+    border: 2px solid #F8075F ;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #F8075F;
+    box-shadow: 0px 3px 4px 0px #888888;
+}
+#t {
+    color: white; 
+    padding: 20px;
+}
+#image img{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+#heading {
+    padding-top: 15%;
+    position: relative;
+    color: white;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#top {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+#text {
+    font-size: 50px;
+}
+#text1 {
+    padding: 40px;
+}
+#btn {
+    text-align: center;
+    position: relative;
+}
+#text2 {
+    text-decoration: none;
+    width: 150px;
+    margin: 5px auto;
+    border: 2px solid none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color:  #F8075F;
+    background-color: white;
+}
+#color {
+    background-color: rgba(248, 7, 95,0.5) ;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+}
+#about {
+    width: 100%;
+    height: 100vh;
+}
+#title {
+    font-size: 50px;
+    color:#F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#ptext {
+    padding: 30px 0px 50px 0px;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+}
+#leftcontent {
+    float: left;
+    width:400px;
+    padding: 100px 0px 10px 150px;
+    overflow: hidden;
+}
+#about a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px 12px 20px;
+}
+#btn1 {
+    border: 2px solid #F8075F ;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #F8075F;
+    box-shadow: 0px 3px 4px 0px #888888;
+}
+#btn2 {
+    padding-bottom: 40px;
+}
+#face {
+    padding: 100px 130px 0 30px;
+    float:right;
+    width: 400px;
+}
+#face img {
+    width: 400px;
+    z-index: -2;
+    position: absolute;
+    border-radius: 80px 180px 180px 80px;
+}
+#face1 {
+    border: 3px solid #F8075F;
+    width: 350px;
+    height: 300px;
+    margin:-40px 100px;
+    z-index: 3;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 80px 180px 180px 80px;
+}
+#features {
+    width: 100%;
+}
+#features p {
+    text-align: center;
+}
+#title1 {
+    font-size: 40px;
+    text-align: center;
+    color:#F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+#font {
+    width: 100%;
+    height: 50vh;
+}
+.first {
+    padding: 20px 30px 20px 35px;
+    margin-left: 120px;
+    margin-right: 40px;
+    width: 200px;
+    height: 30vh;
+    float: left;
+}
+.first i{
+    padding-left: 70px;
+    font-size:48px;
+    color:#F8075F;
+}
+.head {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.ptext1 {
+    padding: 30px 0px 20px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#title1 {
+    font-size: 50px;
+    color:#F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.title3 {
+    font-size: 50px;
+    color:#F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#second {
+    width: 100%;
+    height: 80vh;
+}
+.ptext3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#face2 {
+    padding: 20px 20px 0px 150px;
+}
+#face2 img {
+    float: left;
+    width: 320px;
+    border-radius: 80px 180px 180px 80px;
+}
+#content {
+    float: right;
+    width: 400px;
+    z-index: 3;
+    padding: 0px 150px 20px 0px;
+}
+#fac {
+    border: 3px solid #F8075F;
+    width: 360px;
+    height: 40vh;
+    margin-top: 60px;
+    position: absolute;
+    z-index: -2;
+    margin-left: 90px;
+    background-color: transparent;
+    border-radius: 80px 180px 180px 80px;
+}
+#content h4 {
+    padding: 20px 20px 20px 0px  ;
+}
+#dashboard {
+    width: 100%;
+    background-color: rgb(238, 236, 237 ) ;
+    height: 100vh auto;
+}
+.ptag {
+    padding: 15px;
+    text-align: center;
+}
+.titl {
+    padding: 3% 0% 3% 30% ;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    font-size: 50px;
+    color:#F8075F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+#dashboard img {
+    padding: 5% 0% 5% 30%;
+    width: 600px;
+    height: 50vh;
+}
+#txt {
+    text-align: center;
+    padding: 0px 150px 30px 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#review {
+    width: 100%;
+    height: 130vh;
+    background-color: white;
+}
+#revtitlediv {
+    width: 100%;
+    height: 200px;
+}
+#revtitlediv p {
+    text-align: center;
+    padding: 3% 22% 3% 20% ;
+    font-size: 50px;
+    color:#232222;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+#revtitle span:first-child {
+    color:#F8075F;
+}
+#revdiv {
+    width: 1000x;
+    margin-left: 15%;
+    padding: 0px 40px 0px 40px ;
+    height: 80vh;
+}
+.revfirst {
+    padding: 20px 30px 20px 35px;
+    margin-right: 30px;
+    width: 200px;
+    height: 60vh;
+    float: left;
+    box-shadow: 5px 3px 4px 5px #888888;
+    border-radius: 5px;
+}
+.revfirst img {
+    width: 50px;
+    height: 10vh;
+}
+.avt {
+    padding: 30px;
+    text-align: center;
+}
+.revptext {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+.desc{
+    text-align: center;
+    font-weight: bold;
+}
+.profile {
+    text-align: center;
+    color: #918E8D;
+} 
+#signup {
+    width: 100%;
+    height: 155vh;
+}
+#signuphead {
+    background-image: linear-gradient(to right, rgba(248, 7, 95,1), rgba(241, 5, 123,0.8));
+    padding: 50px 70px 30px 70px;
+    height: 10vh;
+}
+#signtitle {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#signuphead a {
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    color: #F8075F;
+    border-radius: 20px;
+    height: 20px;
+    background-color: white;
+    box-shadow: 5px 4px 6px 0px #F1057B;
+}
+#signupimg img {
+    width: 100%;
+    height: 125vh;
+    position: absolute;
+}
+#signupcolor {
+    position: absolute;
+    background-color:rgba(56, 55, 56 ,0.8) ;
+    height: 125vh;
+    width: 100%;
+}
+#signcontent {
+    width: 100 auto;
+    height:100vh;
+    padding:100px;
+}
+#signleftdiv {
+    position: absolute;
+    width: 30%;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 1px;
+}
+#signleftdiv span {
+    color: white;
+}
+#signptext {
+    color: white;
+    font-size: 40px;
+    font: lighter;
+    padding: 10px 0px 10px 0px;
+}
+#signleftdiv p:last-child {
+    color: white;
+    font-size: 12px;
+    padding: 10px 0 10px 0; 
+    line-height: 25px;
+}
+#signrightdiv {
+    height: 60vh;
+    float: right;
+    position: relative;
+    padding-right: 200px;
+}
+#signrightdiv p{
+    padding: 10px 0 10px 0;
+    color: white;
+}
+#signrightdiv p span {
+    color: red;
+}
+input[type=text] {
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgba(222, 217, 220,0.6);
+    padding-left: 10px;
+}
+textarea {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgba(222, 217, 220,0.6);
+}
+input[type=submit] {
+    width: 300px;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #F1057B;
+}
+#footer {
+    width: 100%;
+    height: 20vh;
+
+}
+#footlogo {
+    height: 20vh;
+    padding-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+#footlogo i{
+    font-size: 40px;
+    padding: 3% 0.5% 0% 0.5%;
+    margin-left: 10px;
+}
+#footlogo span {
+    color: #F1057B; 
+    font-size: 40px;
+    margin-left: 30%;
+}
+#navbarfooter {
+    float: right;
+    padding: 40px 30px 10px 10px; 
+}
+#navbarfooter a{
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#footertext {
+    text-align: center;
+    color: #F1057B;
+    font-size: 12px;
+    font-weight: 100;
+    padding:0px 0px 40px 0px;
+}
